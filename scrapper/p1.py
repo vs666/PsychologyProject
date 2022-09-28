@@ -2,7 +2,6 @@ import nest_asyncio
 import twint
 
 nest_asyncio.apply()
-
 def search(search_string:str,query_limit:int):
     config = twint.Config()
     config.Search = search_string
